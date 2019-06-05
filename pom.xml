@@ -90,12 +90,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>snapdeel-release</name>
-	      <url>http://13.232.225.72:8081/repository/snapdeel-release/</url>
+	      <url>http://13.235.8.233:8081/repository/snapdeel-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>snapdeel</name>
-	      <url>http://13.232.225.72:8081/repository/snapdeel/</url>
+	      <url>http://13.235.8.233:8081/repository/snapdeel/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
