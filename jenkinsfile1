@@ -6,12 +6,12 @@ node{
      stage('build'){
          sh "$sravani/bin/mvn clean package"
      }
-     stage('sonar'){
+     /*stage('sonar'){
          sh "$sravani/bin/mvn clean sonar:sonar"
      }
      stage('nexus'){
          sh "$sravani/bin/mvn clean deploy"
-     }
+     }*/
      stage('tomcat'){
          sshagent(['tomcat']) {
     // some block
